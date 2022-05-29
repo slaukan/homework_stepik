@@ -1,0 +1,385 @@
+/* -------------------Fonts------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+
+/* -------------------All------------------- */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+thead,
+th,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    vertical-align: inherit;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    font: inherit;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+#The_problem-anchor,
+#PiedPiperCoin-anchor,
+#Team-anchor {
+    margin-top: -84px;
+    background-clip: padding-box;
+    border-top: 84px solid transparent;
+}
+
+body {
+    margin: 0px auto;
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------Header------------------- */
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(0, 119, 101);
+    padding-top: 0px;
+    margin-top: 0px;
+    background-clip: content-box;
+}
+
+header .container{
+    padding:0px 110px;
+}
+
+.wrapper {
+    height: 60px;
+    max-width: 910px;
+    margin: 0px auto;
+    
+}
+
+.head {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 7px;
+    margin-bottom: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu_list,
+a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu_list,
+a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+/* -------------------Jumbotrom------------------- */
+
+.Jumbotrom {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url(../img/fon2.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.Jumbotrom__message {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* -------------------The_problem------------------- */
+
+.The_problem {
+    padding-top: 48px;
+    padding-bottom: 78px;
+    background: rgb(238, 238, 238);
+}
+
+.title_problem {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(0, 119, 101);
+    margin-bottom: 16px;
+}
+
+.The_problem__message p {
+    font-size: 32px;
+    line-height: 37px;
+    font-style: normal;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: rgb(0, 0, 0);
+}
+
+.The_problem__message span {
+    font-weight: bold;
+}
+
+/* -------------------hero------------------- */
+
+.hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url(../img/fon1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero__message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* -------------------PiedPiperCoin------------------- */
+
+.title_PPC {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(0, 119, 101);
+    margin-bottom: 12px;
+    margin-top: 52px;
+    padding-left: 40px;
+}
+
+.PPC_message {
+    font-size: 32px;
+    line-height: 37px;
+    font-style: normal;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 55px;
+}
+
+.ppc-img {
+    float: left;
+    height: 115px;
+    width: 115px;
+    margin-right: 30px;
+}
+
+/* -------------------Team------------------- */
+
+.Team {
+    background-color: rgb(238, 238, 238);
+}
+
+.title_team {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(0, 119, 101);
+    margin-top: 52px;
+    padding-left: 40px;
+}
+
+.table_team {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    font-size: 32px;
+    line-height: 37px;
+    font-style: normal;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 0px;
+    color: rgb(0, 0, 0);
+}
+
+table {
+    padding-bottom: 65px;
+}
+
+table td {
+    padding: 35px;
+}
+
+.image_team {
+    padding: 0px 51px;
+}
+
+.names_team {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgb(0, 119, 101);
+    text-align: center;
+}
+
+.position {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* -------------------footer------------------- */
+
+.footer{
+    height: 123px;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    width: 540px;
+    padding: 48px 0 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    padding: 34px 10px 0 10px;
+}
