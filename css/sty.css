@@ -127,19 +127,19 @@ header {
     background-clip: content-box;
 }
 
-header .container{
-    padding:0px 110px;
+header .container {
+    padding: 0px 110px;
 }
 
 .wrapper {
     height: 60px;
     max-width: 910px;
     margin: 0px auto;
-    
+
 }
 
 .head {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,6 +168,12 @@ a {
 .nav {
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 645px) {
+    .nav {
+        flex-direction: column;
+    }
 }
 
 .menu_list,
@@ -273,6 +279,7 @@ a {
     margin-bottom: 12px;
     margin-top: 52px;
     padding-left: 40px;
+    max-width: 100%;
 }
 
 .PPC_message {
@@ -331,6 +338,18 @@ a {
     color: rgb(0, 0, 0);
 }
 
+tr {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+@media screen and (max-width: 645px) {
+    tr {
+        flex-direction: column;
+    }
+}
+
 table {
     padding-bottom: 65px;
 }
@@ -365,7 +384,7 @@ table td {
 
 /* -------------------footer------------------- */
 
-.footer{
+.footer {
     height: 123px;
     background: #333333;
     display: flex;
